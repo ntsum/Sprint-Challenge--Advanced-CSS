@@ -160,6 +160,41 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  font-family: #454A59;
+  border: 1px solid #F1F1F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .navigation {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.navigation h1 {
+  font-size: 4rem;
+  padding: 2rem;
+}
+.navigation div {
+  padding-bottom: 1rem;
+}
+.navigation a {
+  padding: 2rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #5E6164;
+}
+@media (max-width: 500px) {
+  .navigation a {
+    padding: 1rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
